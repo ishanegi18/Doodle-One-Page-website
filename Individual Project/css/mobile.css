@@ -1,0 +1,41 @@
+/* Individual Project
+Isha Negi
+Student id : 8728767  */
+
+
+@media only screen and (max-width: 480px){
+  
+h2 {
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  color : #F0A500;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav {
+  align-items: center;
+  flex-direction: column;
+}
+.navigation-links {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.info{
+  padding: 12px;
+  height: 400px;
+  width: 100%;
+}
+h1 {
+  font-size: 20px;
+}
+figure {
+  float:left;
+  width: 100%;
+  height:100%;  
+  padding: 12px;
+  
+}
+}

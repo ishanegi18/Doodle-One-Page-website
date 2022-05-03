@@ -1,0 +1,228 @@
+ /* Individual Project
+Isha Negi
+Student id : 8728767  */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=RocknRoll+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: ease-in-out 0.2s;
+  overflow-x: hidden;
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+*::selection {
+  background-color: #F0A500;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #f5eded;
+  font-size: 25px;
+}
+a:hover {
+ color : #D59F17
+}
+
+body {
+  
+  background-color: #E6D5B8;
+  color: #f5eded;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 50px;
+  color: #1B1A17;
+  padding-bottom: 30px;
+}
+h2 {
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  color : #F0A500;
+  text-align: center;
+  padding: 1em 0;
+}
+p{
+  color: #1B1A17;
+}
+img{
+  width: 330px;
+  height: 320px;
+
+}
+.banner {
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+  background: url('../images/banner.jpg') top left/cover no-repeat;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.logo p {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  color : #1B1A17;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+#about{
+  text-align:center;
+  padding: 60px;
+}
+.info{
+  background-color: transparent;
+  border-top: 2px ridge black;
+  border-bottom: 2px ridge black;
+  overflow: hidden;
+  float: left;
+  width: 50%;
+  padding: 12px;
+  height: 350px;
+}
+.row:after{
+  content:"";
+  display : table;
+  clear: both;
+
+}
+.gallery{
+  text-align:center;
+  padding: 40px;
+}
+
+.gallery_img img
+  {
+    width:100%;
+    height:300px;
+    
+  
+  }
+
+  .gallery_img img:hover
+  {
+    transform: scale(1.2);
+    cursor: pointer;
+  
+  }
+/* footer */
+footer {
+  color: #E6D5B8;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1B1A17;
+  width: 100%;
+  padding: 10px;
+}
+
+.social-icons-container {
+  padding: 10px 0;
+}
+
+.social-icons-outer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social-icons-outer li {
+  border-radius: 100%;
+
+}
+.icons{
+  font-size: 25px !important;
+  cursor: pointer;
+  color : #E6D5B8;
+}
+
+.icons-small{
+  font-size: 20px !important;
+}
+
+.links-container {
+  display: flex;
+}
+.links-container li {
+  padding: 0px 20px;
+}
+.links-container li a {
+  font-size: 18px;
+  color: #c9c9c9;
+  text-transform: uppercase;
+  transition: color 200ms ease-in;
+}
+.links-container li a:hover {
+  font-size: 18px;
+  color : #F0A500;
+  text-transform: uppercase;
+}
+
+i {
+  font-size: 18px !important;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.active a {
+  border-bottom: #1B1A17 3px solid;
+}
+
+nav {
+  background: transparent;
+  border: 1px solid black;
+  padding-top: 30px;
+  display: flex;  
+  justify-content: space-between;
+  padding: 1em 1.2em;
+  align-items: center;
+ 
+}
+
+.navigation-links {
+  display: flex;
+  
+}
+
+
+section{
+  padding:1em 0px;
+}
+
+.navigation-links li {
+  padding: 1.5em;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.navigation-links li a {
+  color: #1B1A17;
+  font-size: 20px;
+  text-transform: uppercase;
+  
+}
+.navigation-links li a:hover {
+ color : #1B1A17;
+ font-weight: 1000;
+ transform: scale(1.1);
+}

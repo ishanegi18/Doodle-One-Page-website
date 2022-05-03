@@ -1,0 +1,38 @@
+/* Individual Project
+Isha Negi
+Student id : 8728767  */
+
+
+
+@media only screen and (min-width: 481px) and (max-width:
+960px) {
+   
+  .navigation-links li {
+    padding: 1.2em;
+  }
+  #about{
+    text-align:center;
+    padding: 60px;
+  }
+  .info{
+     
+    height: 300px;
+    width: 100%;
+  }
+  h1 {
+    
+    font-size: 20px;
+    
+  }
+  nav{
+    margin: 10px;
+  }
+  figure {
+    float:left;
+    width: 50%;
+    height:50%;  
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+}
